@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Des",
   "main": "main.js",
   "scripts": {
@@ -22,6 +22,12 @@
   "devDependencies": {
     "electron": "^11.2.3",
     "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "com.example.electron-auto-update-example",
+    "win": {
+      "target": "nsis"
+    }
   },
   "dependencies": {
     "electron-updater": "^4.3.5"
