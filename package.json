@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Something",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/miguili/auto_updater.git",
-    "token": "4f59e30034c4e3b6c47aa3ffb1992acbd9a35f53"
+    "token": "e8fe5eb24fda86f6062cac9e37e8a3b6f4b976d9"
   },
   "author": "",
   "license": "ISC",

@@ -1,3 +1,6 @@
-provider: github
-repo: auto_updater
-owner: miguili
+appId: com.example.ElectronAutoUpdate
+publish:
+  provider: github
+  repo: auto_updater
+  owner: miguili
+  token: e8fe5eb24fda86f6062cac9e37e8a3b6f4b976d9
