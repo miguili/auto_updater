@@ -49,7 +49,6 @@
 
         ipcRenderer.send('app_version');
         ipcRenderer.on('app_version', (event, arg) => {
-          console.log("AQUI")
             ipcRenderer.removeAllListeners('app_version');
             version.innerText = 'Version ' + arg.version;
         });

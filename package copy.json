@@ -1,7 +1,7 @@
 {
   "name": "electron-auto-update-example",
   "version": "1.0.21",
-  "description": "",
+  "description": "Something",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,15 +9,21 @@
     "build": "electron-builder build --win --publish never",
     "deploy": "electron-builder build --win --publish always"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/miguili/auto_updater.git"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^11.2.3",
-    "electron-builder": "^22.9.1",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "com.github.example.electron-auto-update-example",
+    "token":"e8fe5eb24fda86f6062cac9e37e8a3b6f4b976d9",
+    "publish": {
+      "provider": "github",
+      "bucket": "bucket-name"
+    }
+  },
+  "dependencies": {
     "electron-updater": "^4.3.5"
   }
 }
