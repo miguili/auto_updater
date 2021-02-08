@@ -7,7 +7,7 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder build --win --publish always -c.extraMetadata.main=main.js"
+    "deploy": "electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "5.0.1",
-    "electron-builder": "20.40.2"
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1"
   },
   "dependencies": {
-    "electron-updater": "4.0.6"
+    "electron-updater": "^4.3.5"
   }
 }
