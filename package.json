@@ -1,13 +1,13 @@
 {
   "name": "electron-auto-update-example",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
