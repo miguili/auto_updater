@@ -14,6 +14,16 @@
     "url": "https://github.com/miguili/auto_updater.git",
     "token": "e8fe5eb24fda86f6062cac9e37e8a3b6f4b976d9"
   },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "miguili",
+        "repo": "auto_updater",
+        "token": "e8fe5eb24fda86f6062cac9e37e8a3b6f4b976d9"
+      }
+    ]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
