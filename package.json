@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Something",
   "main": "main.js",
   "scripts": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^11.2.3",
-    "electron-builder": "^22.9.1"
+    "electron": "5.0.1",
+    "electron-builder": "20.40.2"
   },
   "dependencies": {
-    "electron-updater": "^4.3.5"
+    "electron-updater": "4.0.6"
   }
 }
