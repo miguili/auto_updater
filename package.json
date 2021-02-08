@@ -1,7 +1,7 @@
 {
   "name": "electron-auto-update-example",
   "version": "1.0.0",
-  "description": "aa",
+  "description": "Des",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/miguili/auto_updater.git"
   },
-  "author": "miguili",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miguili/auto_updater/issues"
