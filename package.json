@@ -1,19 +1,19 @@
 {
   "name": "electron-auto-update-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "aa",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "electron-builder build --win --publish never",
-    "deploy": "electron-builder build --win --publish always"
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/miguili/auto_updater.git"
   },
-  "author": "Miguel Cervera",
+  "author": "miguili",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miguili/auto_updater/issues"

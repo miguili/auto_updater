@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const { autoUpdater } = require('electron-updater');
-
+const log = require('electron-log');
+var logger = require('electron-logger');
 let mainWindow;
 
 function createWindow() {
@@ -19,7 +20,7 @@ function createWindow() {
 
 app.on('ready', () => {
     createWindow();
-    autoUpdater.checkForUpdates();
+    autoUpdater.checkForUpdates()
 });
 
 app.on('window-all-closed', function () {
@@ -37,7 +38,6 @@ app.on('activate', function () {
 ipcMain.on('app_version', (event) => {
     event.sender.send('app_version', { version: app.getVersion() });
 });
-
 autoUpdater.on('update-available', () => {
     mainWindow.webContents.send('update_available');
 });
