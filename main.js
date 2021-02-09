@@ -1,12 +1,5 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const { autoUpdater } = require('electron-updater');
-// Setup file logging
-const log = require('electron-log');
-log.transports.file.level = 'info';
-log.transports.file.file = __dirname + 'log.log';
-
-// Log a message
-log.info('log message');
 let mainWindow;
 
 function createWindow() {

@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Des",
   "main": "main.js",
   "scripts": {
@@ -26,7 +26,12 @@
   "build": {
     "appId": "com.example.electron-auto-update-example",
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "publish": {
+        "provider": "github",
+        "private": true,
+        "token": "18a4e10012490c35e168dc4d1b32fd0fdf453b35"
+      }
     }
   },
   "dependencies": {
